@@ -4,5 +4,5 @@
 ) }}
 
 SELECT
-  4 AS id,
-  'auston' AS name
+  5 AS id,
+  'testuser' AS name
