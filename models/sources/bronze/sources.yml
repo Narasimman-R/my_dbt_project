@@ -1,0 +1,62 @@
+version: 2
+
+sources:
+  - name: bronze
+    tags: ["bronze"]
+    database: dev
+    schema: bronze
+    tables:
+      - name: team_1_bronze_customer
+        columns:
+          - name: customer_id
+          - name: name
+          - name: email
+          - name: created_at
+          - name: updated_at
+          - name: _fivetran_deleted
+          - name: _fivetran_synced
+
+      - name: team_1_bronze_inventory_movements
+        columns:
+          - name: product_id
+          - name: stock_level
+          - name: movement_date
+          - name: _fivetran_deleted
+          - name: _fivetran_synced
+
+      - name: team_1_bronze_order_items
+        columns:
+          - name: order_id
+          - name: product_id
+          - name: quantity
+          - name: unit_price
+          - name: promotion_applied
+          - name: _fivetran_deleted
+          - name: _fivetran_synced
+
+      - name: team_1_bronze_orders
+        columns:
+          - name: order_id
+          - name: customer_id
+          - name: order_date
+          - name: total_amount
+          - name: _fivetran_id
+          - name: _fivetran_deleted
+          - name: _fivetran_synced
+
+      - name: team_1_bronze_products
+        columns:
+          - name: product_id
+          - name: name
+          - name: category
+          - name: price
+          - name: _fivetran_deleted
+          - name: _fivetran_synced
+
+      - name: team_1_bronze_promotions
+        columns:
+          - name: promotion_id
+          - name: description
+          - name: is_active
+          - name: _fivetran_deleted
+          - name: _fivetran_synced

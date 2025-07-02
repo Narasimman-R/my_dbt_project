@@ -1,0 +1,20 @@
+customer_id,name,email,created_at,updated_at,_fivetran_deleted,_fivetran_synced
+101,Alice Wong,alice_new@email.com,2022-01-01 10:00,2024-12-10 12:00,FALSE,2025-06-25 09:00:00
+102,Bob Smith,bob.smith@email.com,2021-05-20 14:30,2024-11-22 08:45,FALSE,2025-06-25 09:00:00
+103,Charlie Patel,charlie.patel@email.com,2023-03-15 09:00,2025-05-01 10:10,FALSE,2025-06-25 09:00:00
+104,Diana Chen,diana.chen@email.com,2020-10-10 18:45,2024-10-10 20:00,TRUE,2025-06-25 09:00:00
+105,Ethan Jones,ethan.j@email.com,2022-07-22 11:00,2024-09-30 16:15,FALSE,2025-06-25 09:00:00
+106,Fatima Rahman,fatima@email.com,2023-01-10 13:20,2025-06-01 09:30,FALSE,2025-06-25 09:00:00
+107,George Lee,george.lee@email.com,2021-12-05 07:50,2024-07-14 13:40,TRUE,2025-06-25 09:00:00
+108,Hannah Kim,hannahk@email.com,2022-06-18 15:10,2025-03-27 17:00,FALSE,2025-06-25 09:00:00
+109,Ibrahim Khan,ibrahim.k@email.com,2020-04-02 19:30,2023-11-12 08:30,FALSE,2025-06-25 09:00:00
+110,Julia Roberts,julia.roberts@email.com,2023-09-01 08:45,2025-06-10 12:00,FALSE,2025-06-25 09:00:00
+111,Nina Brown,nina@email.com,2022-05-10 10:00,2025-06-15 09:00,FALSE,2025-06-25 09:00:00
+112,Nina B.,nina@email.com,2023-03-12 12:00,2025-06-20 11:00,FALSE,2025-06-25 09:00:00
+113,Oscar Wilde,oscar@email.com,2020-08-14 08:30,2024-04-01 10:10,TRUE,2025-06-25 09:00:00
+114,Paula Dean,paula@email.com,2019-09-19 16:00,2023-01-25 13:45,TRUE,2025-06-25 09:00:00
+115,,noemail@email.com,2022-11-11 11:11,2025-01-01 10:10,FALSE,2025-06-25 09:00:00
+116,Quincy Adams,,2023-06-06 06:06,2025-02-02 09:00,FALSE,2025-06-25 09:00:00
+117,Rachel Green,rachel@email.com,,2025-04-10 10:00,FALSE,2025-06-25 09:00:00
+118,Steve Jobs,steve@email.com,2025-12-01 12:00,2026-01-01 08:00,FALSE,2025-06-25 09:00:00
+119,Tina Fey,tina@email.com,2015-03-20 07:30,2016-08-14 10:00,FALSE,2025-06-25 09:00:00

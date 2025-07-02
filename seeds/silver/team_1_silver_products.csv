@@ -1,0 +1,3 @@
+product_id,name,category,price,_fivetran_synced
+2001,Laptop,Electronics,1000.0,2025-06-01 09:00:00
+2002,Mouse,Electronics,50.5,2025-06-01 09:00:00

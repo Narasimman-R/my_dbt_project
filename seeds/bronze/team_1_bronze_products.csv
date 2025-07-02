@@ -1,0 +1,16 @@
+product_id,name,category,price,_fivetran_deleted,_fivetran_synced
+2001,Monitor,Electronics,95.0,FALSE,2025-06-25 09:00:00
+2002,Office Chair,Furniture,150.0,FALSE,2025-06-25 09:00:00
+2003,Keyboard,Electronics,80.0,FALSE,2025-06-25 09:00:00
+2004,Mouse,Electronics,40.0,FALSE,2025-06-25 09:00:00
+2005,Desk,Furniture,200.0,FALSE,2025-06-25 09:00:00
+2006,Notebook Stationery,Stationery,10.0,FALSE,2025-06-25 09:00:00
+2007,Standing Desk,Furniture,300.0,FALSE,2025-06-25 09:00:00
+2008,Pen,Stationery,1.5,FALSE,2025-06-25 09:00:00
+2009,USB Drive,Electronics,20.0,FALSE,2025-06-25 09:00:00
+2010,Whiteboard,Office Supplies,75.0,FALSE,2025-06-25 09:00:00
+2011,Mousepad,Electronics,8.0,TRUE,2025-06-25 09:00:00
+2012,,Furniture,125.0,FALSE,2025-06-25 09:00:00
+2013,Tablet,Electronics,,FALSE,2025-06-25 09:00:00
+2014,Coffee Mug,Kitchenware,-10.0,FALSE,2025-06-25 09:00:00
+2015,Lamp,Furniture,60.0,FALSE,2025-06-25 09:00:00
