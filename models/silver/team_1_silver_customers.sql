@@ -1,3 +1,5 @@
+{{ config(materialized='incremental') }}
+
 WITH ranked_customers AS (
   SELECT *,
          ROW_NUMBER() OVER (
@@ -10,6 +12,7 @@ WITH ranked_customers AS (
     AND email IS NOT NULL
     AND created_at IS NOT NULL
 )
+
 SELECT
   customer_id,
   name,
@@ -20,3 +23,10 @@ SELECT
 FROM ranked_customers
 WHERE row_num = 1;
 
+{% if execute %}
+  {% set result = run_query("SELECT COUNT(*) AS cnt FROM {{ this }}") %}
+  {% if result %}
+    {% set row_count = result.columns[0].values()[0] %}
+    {{ log("Row count in model: " ~ row_count, info=True) }}
+  {% endif %}
+{% endif %}
