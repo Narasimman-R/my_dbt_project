@@ -30,8 +30,6 @@ WHERE row_num = 1;
     {% set row_count = row_count_result.columns[0].values()[0] %}
     {{ log("Row count in model: " ~ row_count, info=True) }}
   {% endif %}
-
-  {% set compiled_sql = to_sql() %}
-  {{ log("Compiled SQL: " ~ compiled_sql, info=True) }}
 {% endif %}
+
 
